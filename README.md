@@ -6,22 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Description of Work
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- As Requested a simple design that contains an input for search and a dropdown list to choose either will search on users or repositories by default i make it users ,
+then when user start typing nothing will happen until number of characters more or equal three as requested .
 
-## Build
+- Search result appears as cards designed with only css no frameworks as requested too and it's completely responsive .  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- When user hover on any of this cards the background of card changed to red and inisde color changed to white with 2 seconds as transition .
 
-## Running unit tests
+- For ur information i only showed 15 result of search result as api returns more than 100 data and no paginantion was requested so i only appears 15 search result ..
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- after gettting search result and user change dropdown to repository the api called to get respositores that match with the search input text that already entered before ..
 
-## Running end-to-end tests
+- If any change happen in search text new result will called until search input text be less than 3 no result come .. 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
